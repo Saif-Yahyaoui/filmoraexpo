@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "FilmoraExpo",
+    "slug": "filmoraexpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saifyahyaoui.filmoraexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.saifyahyaoui.filmoraexpo"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f54a3c98-dc0c-46d1-846a-717fe29f3994"
+      }
+    },
+    "owner": "saif.yahyaoui",
+    "updates": {
+      "url": "https://u.expo.dev/f54a3c98-dc0c-46d1-846a-717fe29f3994"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
